@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <!--////////////////////////////////////-->
+
+  <ThingDef Name="BasePawn" Abstract="True" Class="MD2.CartDef">
+    <thingClass>MD2.Cart</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>false</hasTooltip>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <inspectorTabs>
+    </inspectorTabs>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+  <ThingDef ParentName="BasePawn" Class="MD2.CartDef">
+    <defName>MD2Cart</defName>
+    <label>cart</label>
+    <description>A cart.</description>
+    <frontGraphicPath>Carts/Cart_front</frontGraphicPath>
+    <sideGraphicPath>Carts/Cart_side</sideGraphicPath>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+</ThingDefs>

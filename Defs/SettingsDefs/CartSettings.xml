@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SettingsDefs>
+  <SettingsDef>
+    <defName>MD2CartSettings</defName>
+    <drawTrackDebug>false</drawTrackDebug>
+  </SettingsDef>
+</SettingsDefs>

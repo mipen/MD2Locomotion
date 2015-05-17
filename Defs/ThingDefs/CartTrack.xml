@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+  <ThingDef Name="BuildingBase" Abstract="True" Class="MD2.TrackDef">
+    <category>Building</category>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>MD2CartTrack</defName>
+    <label>cart track</label>
+    <thingClass>MD2.Track</thingClass>
+    <graphicPath>Tracks/Track_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <blueprintGraphicPath>Tracks/Track_straight</blueprintGraphicPath>
+    <linkDrawerType>Basic</linkDrawerType>
+    <linkFlags>
+      <li>Custom1</li>
+    </linkFlags>
+    <uiIconPath>Tracks/Track_straight</uiIconPath>
+    <building>
+      <isInert>true</isInert>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+      <isEdifice>false</isEdifice>
+    </building>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>35</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <Beauty>-2</Beauty>
+    </statBases>
+    <description>A cart track.</description>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>U</designationHotKey>
+  </ThingDef>
+
+</Buildings>
