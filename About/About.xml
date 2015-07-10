@@ -3,6 +3,7 @@
   <name>MD2 Locomotion</name>
   <author>mipen</author>
   <url>https://ludeon.com/forums/index.php?topic=7380.0</url>
-  <targetVersion>Alpha 10</targetVersion>
-  <description>Mechanical Defence 2 locomotion module.</description>
+  <targetVersion>Alpha 11b</targetVersion>
+  <description>Mechanical Defence 2 locomotion module.
+  Recompiled by Leucetius for Alpha 11b</description>
 </ModMetaData>

@@ -18,8 +18,10 @@
     <defName>MD2CartTrack</defName>
     <label>cart track</label>
     <thingClass>MD2.Track</thingClass>
-    <graphicPath>Tracks/Track_Atlas</graphicPath>
-    <graphicClass>Graphic_Single</graphicClass>
+	<grahicData>
+		<texPath>Tracks/Track_Atlas</texcPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</grahicData>
     <blueprintGraphicPath>Tracks/Track_straight</blueprintGraphicPath>
     <linkDrawerType>Basic</linkDrawerType>
     <linkFlags>
